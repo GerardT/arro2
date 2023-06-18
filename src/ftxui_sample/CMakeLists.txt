@@ -2,8 +2,8 @@ add_executable(intro main.cpp)
 
 target_link_libraries(
   intro
-  PRIVATE myproject::myproject_options
-          myproject::myproject_warnings)
+  PRIVATE arro2::arro2_options
+          arro2::arro2_warnings)
 
 target_link_system_libraries(
   intro
